@@ -146,6 +146,15 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    .text-container {
+        background: white;
+        border-radius: 5px;
+        max-width: 430px;
+        margin: auto;
+        padding: 40px 0;
+        border: 1px solid #333;
+    }
 }
 
 /* About */
