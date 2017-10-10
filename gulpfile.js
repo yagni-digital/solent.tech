@@ -6,7 +6,7 @@ const gulp = require('gulp'),
   runSequence = require('run-sequence'),
   bootstrapBase = './node_modules/startbootstrap-stylish-portfolio',
   bootstrapFoldersToCopy = ['css', 'font-awesome', 'fonts', 'img', 'js'].map((value => `${bootstrapBase}/${value}/**`)),
-  filesToCopy = ['robots.txt', 'index.html', 'js/**'].map((value => `./staticSite/${value}`)),
+  filesToCopy = ['robots.txt', 'index.html', 'error.html', 'js/**'].map((value => `./staticSite/${value}`)),
   allStaticSiteFiles = bootstrapFoldersToCopy.concat(filesToCopy);
 
 gulp.task('clean', () => {
